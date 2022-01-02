@@ -188,4 +188,5 @@ const mapStateToProps = (state) => {
     price:state.totalPrice
   };
 };
+
 export default connect(mapStateToProps) (ContactData);
